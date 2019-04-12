@@ -62,6 +62,13 @@ STRUCT!{struct IP_MREQ {
     imr_multiaddr: IN_ADDR,
     imr_interface: IN_ADDR,
 }}
+
+UNION! {union SOCKADDR_INET {
+    [u32;1],
+    Ipv4 Ipv4_mut: SOCKADDR_IN,
+    Ipv6 Ipv6_mut: SOCKADDR_IN6_LH ,
+    si_family si_family_mut:ADDRESS_FAMILY ,
+}}
 pub type PIP_MREQ = *mut IP_MREQ;
 STRUCT!{struct IP_MREQ_SOURCE {
     imr_multiaddr: IN_ADDR,
