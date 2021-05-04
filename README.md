@@ -1,4 +1,11 @@
-# winapi-rs
+# winapi-rs (wam-dev branch)
+
+Note: this branch is my personal development branch (Tony Mason,
+github.com/fsgeek) and thus changes here are **my** responsibility.   Use at
+your own risk...
+
+# Original Content
+
 [![Build status](https://github.com/retep998/winapi-rs/workflows/Rust/badge.svg)](https://github.com/retep998/winapi-rs/actions)
 [![Build status](https://ci.appveyor.com/api/projects/status/i47oonf5e7qm5utq/branch/0.3?svg=true)](https://ci.appveyor.com/project/retep998/winapi-rs/branch/0.3)
 [![Build Status](https://travis-ci.org/retep998/winapi-rs.svg?branch=0.3)](https://travis-ci.org/retep998/winapi-rs)
